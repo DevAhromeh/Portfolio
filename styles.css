@@ -30,6 +30,10 @@ nav {
   text-transform: uppercase;
   color: #141b41;
 }
+b {
+  font-size: 40px;
+  color: #d81e5b;
+}
 .navItems {
   display: flex;
 }
@@ -43,4 +47,41 @@ nav {
   letter-spacing: 3px;
   text-decoration: none;
   text-transform: capitalize;
+}
+.navItems li:hover a,
+.links a:hover {
+  color: #d81e5b;
+}
+.links a {
+  font-size: 30px;
+  color: #141b41;
+  margin: 5px;
+}
+.context {
+  justify-content: center;
+  align-items: center;
+  padding: 0 10%;
+  overflow: hidden;
+}
+.line1 {
+  width: 50%;
+}
+.topline {
+  display: block;
+  position: relative;
+  font-size: 30px;
+  letter-spacing: 3px;
+  color: #141b41;
+}
+h1 {
+  display: block;
+  font-size: 4em;
+  font-weight: 900;
+  color: #d81e5b;
+}
+p {
+  display: block;
+  width: 90%;
+  font-size: 1.2em;
+  color: #141b41;
 }
